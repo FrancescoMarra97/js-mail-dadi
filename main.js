@@ -17,7 +17,7 @@ const list_mail=[
 if (mail.includes("@") && mail.includes(".")) {
     alert("mail valida")
         //passo 4 effettuare il controllo sulla lista
-    if (list_mail.includes(mail) {
+    if (list_mail.includes(mail)) {
         console.log(mail);
         //passo 5 stampare un messaggio appropriato
         alert("Questa mail può accedere")
