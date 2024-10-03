@@ -14,7 +14,11 @@ const list_mail=[
     "anna@gmail.com"
 ]
 //passo 3 effettuare il controllo sull'inserimento corretto della stringa
-
+if (mail.includes("@") && mail.includes(".")) {
+    let mail_valida=mail;
+}else{
+    alert("La mail non è valida")
+}
 //passo 4 effettuare il controllo sulla lista
 
 
