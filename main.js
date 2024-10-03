@@ -20,6 +20,11 @@ if (mail.includes("@") && mail.includes(".")) {
     alert("La mail non è valida")
 }
 //passo 4 effettuare il controllo sulla lista
+if (mail_valida.includes(list_mail)) {
+    console.log(mail_valida);
+    //passo 5 stampare un messaggio appropriato
+    alert("Questa mail può accedere")
+} else{
+    alert("Questa mail non può accedere")
+}
 
-
-//passo 5 stampare un messaggio appropriato
