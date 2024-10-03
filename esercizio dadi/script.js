@@ -7,7 +7,7 @@ Se dobbiamo confrontare qualcosa che "cosa" ci serve? */
 //passo 1 genera un numero random da 1 a 6 per l'utente
 let firstNumber=Math.floor(Math.random() * 6) + 1;
 //passo 2 generta un numero random da 1 a 6 per il computer
-
+let secondNumber=Math.floor(Math.random() * 6) + 1;
 //confronta i due numeri, il maggiore vince
 
 //stampa messaggio con il vincitore
