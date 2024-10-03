@@ -12,32 +12,21 @@ console.log(firstNumber);
 let secondNumber=Math.floor(Math.random() * 6) + 1;
 console.log(secondNumber);
 
+let user=0;
+let computer=0;
 //confronta i due numeri, il maggiore vince
 if (firstNumber > secondNumber) {
     //stampa messaggio con il vincitore
+    user++;
     alert("l'utente è il vincitore!")
 }else if (firstNumber<secondNumber) {
+    computer++;
     alert("Il computer è il vincitore!");
 }else{
     alert("c'è un pareggio!");
 }
 
+console.log(user);
+console.log(computer);
 
 
-
-
-num_round=[];
-for (let i = 0; i < 5; i++) {
-    let firstNumber=Math.floor(Math.random() * 6) + 1;
-    console.log(firstNumber);
-    let secondNumber=Math.floor(Math.random() * 6) + 1;
-    console.log(secondNumber);
-    if (firstNumber > secondNumber) {
-        
-    }else if (firstNumber<secondNumber) {
-       
-    }else{
-        
-    }
-
-}
