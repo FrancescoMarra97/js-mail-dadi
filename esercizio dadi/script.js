@@ -21,3 +21,23 @@ if (firstNumber > secondNumber) {
 }else{
     alert("c'è un pareggio!");
 }
+
+
+
+
+
+num_round=[];
+for (let i = 0; i < 5; i++) {
+    let firstNumber=Math.floor(Math.random() * 6) + 1;
+    console.log(firstNumber);
+    let secondNumber=Math.floor(Math.random() * 6) + 1;
+    console.log(secondNumber);
+    if (firstNumber > secondNumber) {
+        
+    }else if (firstNumber<secondNumber) {
+       
+    }else{
+        
+    }
+
+}
