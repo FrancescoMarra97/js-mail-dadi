@@ -17,7 +17,6 @@ if (firstNumber > secondNumber) {
     //stampa messaggio con il vincitore
     alert("l'utente è il vincitore!")
 }else if (firstNumber<secondNumber) {
-    //stampa messaggio con il vincitore
     alert("Il computer è il vincitore!");
 }else{
     alert("c'è un pareggio!");
